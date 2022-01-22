@@ -118,14 +118,6 @@ $(".list-group").on("blur", "input[type='text']", function(){
 })
 
 
-
-
-
-
-
-
-
-
   var text = $(this)
   var textInput = $("<textarea>")
   $(this).replaceWith(textInput)
